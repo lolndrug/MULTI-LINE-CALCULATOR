@@ -1,10 +1,5 @@
-// Muhammed Mustafa İnce
-// 1306190024
-// Date :17.01.2021
-// Development Environment: Visual Studio2019 
-// NOTE1:İNPUT dosyalarının adı "Challange" olarak  yazılmıştı ,değiştirmedim.
-// Sizden sağlık sorunlarım nedeniyle ödev için ek süre istemiştim lakin bitirdiğim yere(Challange6.inp) kadar olan kısmını vaktinde göndermeye karar verdim.
-// Yine de ek süre verdiğiniz ve anlayışlı davrandığınız için teşekkür ederim.
+// Muhammed Mustafa Ãnce
+
 
 
 #include <iostream>
@@ -344,7 +339,7 @@ namespace Operations {
 int main() {
   
 
-    string inputFile = "Challange6.inp"; // İnput dosyasının konumu buraya girilecek.
+    string inputFile = "Challange6.inp"; // Ãnput dosyasÃ½nÃ½n konumu buraya girilecek.
     std::vector<string> content = FileUtil::readFile(inputFile);
 
     for (int i = 0; i < content.size(); ++i) {
